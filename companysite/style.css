@@ -1,0 +1,82 @@
+body{
+  font-family:"Cactus Classical Serif", serif;
+  font-size:14px;
+  margin:0;
+  padding:0;
+  font-weight:400;
+  background-color: white;
+}
+
+.outer{
+text-align: center;
+}
+
+.page{
+  margin-top:10px;
+  background-color: white;
+  max-width: 1200px;
+  width:100%;
+  display: inline-block;
+  height:99vh;
+}
+
+.topofpage{
+  display:flex;
+  align-items:center;
+  height:100px;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:flex-start;
+  height:100px;
+
+}
+
+.logo{
+  max-width:200px;
+  text-align:left;
+
+}
+
+.logo_img{
+  margin-top:1px;
+  margin-left:15px;
+  width:50%;
+
+}
+
+.navbar{
+  flex-grow:1;
+  text-align:center;
+
+}
+
+.search{
+  align-content:flex-end;
+  margin-left:auto;
+  margin-right:15px;
+  width:40px;
+
+}
+
+.search_img{
+  width:50%;
+
+}
+
+a{
+  color:#000;
+  text-decoration:none;
+  font-weight:400;
+  margin-right:20px ;
+}
+
+a:hover{
+  color:darkgrey;
+}
+
+.content{
+  background-color:white;
+  padding-left:10px;
+  text-align:left;
+  padding-top:10px;
+}
