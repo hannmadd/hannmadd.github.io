@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DIOR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Pavanam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Navigation -->
+    <div class="topofpage">
+        <div class="logo">
+            <a href="index.html"><img src="img/diorlogo.png" alt="DIORLOGO" class="logo_img" /></a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="navbar">
+            <a href="womensfashion.html">Women's Fashion</a>
+            <a href="mensfashion.html">Men's Fashion</a>
+            <a href="bags.html">Bags</a>
+            <a href="jewelry.html">Jewelry & Timepieces</a>
+        </nav>
+
+        <!-- Search Icon -->
+        <div class="search">
+            <a href="search.html"><img src="img/search.png" alt="SEARCH" class="search_img"></a>
+        </div>
+
+        <!-- Hamburger Icon (Only Visible on Mobile) -->
+        <div class="hamburger-menu" onclick="openMenu()">
+            <img src="img/menu-icon.png" alt="Menu">
+        </div>
+    </div>
+
+    <!-- Full-Screen Mobile Menu Overlay -->
+    <div id="mobileNav" class="mobile-overlay">
+        <div class="mobile-menu">
+            <span class="close-btn" onclick="closeMenu()">&times;</span>
+            <a href="womensfashion.html">Women's Fashion</a>
+            <a href="mensfashion.html">Men's Fashion</a>
+            <a href="bags.html">Bags</a>
+            <a href="jewelry.html">Jewelry & Timepieces</a>
+            <a href="search.html">Search</a>
+        </div>
+    </div>
+
+    <!-- Tiles Section -->
+    <div class="tile tilebg1">
+        <div class="tile-text">S/S25</div>
+    </div>
+
+    <div class="tile tilebg2">
+        <div class="tile-text">GIFTS</div>
+    </div>
+
+    <div class="tile tilebg3">
+        <div class="tile-text">SHOES</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
