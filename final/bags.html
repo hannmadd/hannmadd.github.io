@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DIOR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Pavanam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body>
+
+    <!-- Top Navigation -->
+    <div class="topofpage">
+        <div class="logo">
+            <a href="index.html"><img src="img/diorlogo.png" alt="DIORLOGO" class="logo_img" /></a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="navbar">
+            <a href="womensfashion.html">Women's Fashion</a>
+            <a href="mensfashion.html">Men's Fashion</a>
+            <a href="bags.html">Bags</a>
+            <a href="jewelry.html">Jewelry & Timepieces</a>
+        </nav>
+
+        <!-- Search Icon -->
+        <div class="search">
+            <a href="search.html"><img src="img/search.png" alt="SEARCH" class="search_img"></a>
+        </div>
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger-menu" onclick="openMenu()">
+            <img src="img/menu-icon.png" alt="Menu">
+        </div>
+    </div>
+    
+  <!-- Mobile Menu -->
+  <div id="mobileNav" class="mobile-overlay">
+    <div class="mobile-menu">
+      <span class="close-btn" onclick="closeMenu()">&times;</span>
+      <a href="womensfashion.html">Women's Fashion</a>
+      <a href="mensfashion.html">Men's Fashion</a>
+      <a href="bags.html">Bags</a>
+      <a href="jewelry.html">Jewelry & Timepieces</a>
+      <a href="search.html">Search</a>
+    </div>
+  </div>
+
+  <!-- Hero Tile -->
+  <div class="tile" style="background-image: url('img/bagtile.jpeg');">
+    <div class="tile-text">Iconic Dior Bags</div>
+  </div>
+
+  <!-- Dior Bag History -->
+  <section style="padding: 80px 40px; max-width: 800px; margin: auto; font-family: 'Libre Baskerville', serif; font-size: 16px; line-height: 1.8; color: #222;">
+    <p>
+      From the Lady Dior to the Saddle Bag, Dior has continually shaped the narrative of luxury through its iconic handbag designs. Each creation reflects meticulous craftsmanship, timeless elegance, and a bold spirit. Carrying a Dior bag is not simply about fashion — it is carrying a legacy.
+    </p>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="product-row">
+    <div class="product">
+      <img src="img/saddlebag.jpeg" alt="Saddle Bag">
+      <p class="product-name">Saddle Bag</p>
+      <p class="product-price">$3,600.00</p>
+    </div>
+
+    <div class="product">
+      <img src="img/journeybag.jpeg" alt="Dior Journey Bag">
+      <p class="product-name">Dior Journey Bag</p>
+      <p class="product-price">$4,200.00</p>
+    </div>
+
+    <div class="product">
+      <img src="img/mediumbag.jpeg" alt="Medium Lady Dior Bag">
+      <p class="product-name">Medium Lady Dior Bag</p>
+      <p class="product-price">$5,100.00</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
